@@ -1,0 +1,125 @@
+:root {
+
+/* future colors */
+--waterLeaf: #9ee0e6;
+--waterLoo: #7e7ca0;
+
+/* current day colors */
+--deYork: #7DC386;
+--cornField: #F6FACB;
+
+/* past colors */
+--canCan: #DD97AB;
+--chathamsBlue: #133F6F;
+
+}
+
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  /* backgroud is Atlantis and the text color is Tusk */
+  background-color: #a3cc49;
+  color: #fbf6bf;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.container {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.text-input {
+  width: 80%;
+  justify-content: flex-start;
+  align-content: center;
+  display: flex;
+  padding: 20px;
+}
+
+.time-block {
+  text-align: center;
+  width: 10%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+
+.button {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.column {
+  display: flex;
+  flex-direction: column
+}
+
